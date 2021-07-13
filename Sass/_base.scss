@@ -1,0 +1,38 @@
+$clr-violet:#91406c;
+$font-stack: 'Roboto', sans-serif;
+
+%flex{
+    display: flex;
+    align-items: center;
+}
+
+@mixin flexColumn {
+    @extend %flex;
+    flex-direction: column;
+}
+
+@mixin flexCenter {
+    @extend %flex;
+    align-content: center;
+}
+
+
+@mixin mq($size) {
+    @media only screen and (min-width: $size) {
+        @content
+    }
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    min-height: 100vh;
+    width: 100vw;
+    font-family: $font-stack;
+}
