@@ -7,9 +7,9 @@
     - [ ] Look for resources
      ### Resources found :
      - google API:
-      - Maps javascript API
-      - Places API
-      - Maps Embed API
+            - Maps javascript API
+            - Places API
+            - Maps Embed API
 
      - manticoresearch
 
