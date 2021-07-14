@@ -1,6 +1,6 @@
 # Hello World
 
-## Use case : Search things(places/restaurants/bussinesses) near your location.
+## Use case : Search things( places || restaurants || businesses ) near your location.
 
 ### Current progress: 
 - [ ] Research 
@@ -10,4 +10,4 @@
 
      - manticoresearch
 
-    - [ ] determine the best resources to implement
+- [ ] determine the best resources to implement
