@@ -8,5 +8,6 @@
     ### Resources found :
     - google API : Maps javascript API / Places API / Maps Embed API
     - manticoresearch
+    - tomtom
 
     - [ ] determine the best resources to implement
