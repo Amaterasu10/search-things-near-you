@@ -1,7 +1,7 @@
 # search-things-near-you
 
-##About
-Use case : Search things( places || restaurants || businesses ) near your location.
+## About
+Search things( places || restaurants || businesses ) near your location.
 
 ### Current progress: 
 - [x] Research 
