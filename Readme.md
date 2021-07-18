@@ -1,13 +1,16 @@
-# Hello World
+# search-things-near-you
 
-## Use case : Search things( places || restaurants || businesses ) near your location.
+##About
+Use case : Search things( places || restaurants || businesses ) near your location.
 
 ### Current progress: 
-- [ ] Research 
-    - [ ] Look for resources
-    ### Resources found :
-    - google API : Maps javascript API / Places API / Maps Embed API
-    - manticoresearch
-    - tomtom
+- [x] Research 
+    - [x] Look for resources
+    Resources found :
+        - google API : Maps javascript API / Places API / Maps Embed API
+        - manticoresearch
+        - tomtom
 
-    - [ ] determine the best resources to implement
+    - [x] determine the best resources to implement
+    - [ ] learning how to implement
+
