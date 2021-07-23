@@ -12,11 +12,14 @@ I decided to use Tomtom's sdk since it doesn't require a credit card.
  - [x] Look for resources
  
   Resources found:
-   - ~~google API : Maps javascript API / Places API / Maps Embed API~~
-   - ~~manticoresearch~~
+   - google API : Maps javascript API / Places API / Maps Embed API
+   - manticoresearch
    - tomtom
 
  - [x] determine the best resources to implement
+   - ~~google API : Maps javascript API / Places API / Maps Embed API~~
+   - ~~manticoresearch~~
+   - tomtom
  - [x] learning how to implement
 
 - [x] implementation
@@ -24,8 +27,14 @@ I decided to use Tomtom's sdk since it doesn't require a credit card.
 ### Quick start 
 
 1. Sign-up to [tomtom](https://developer.tomtom.com/) to get your free API.
-2. After acquiring your API key, go to index.js and place your API key inside this variable `const myKey = "<your-tomtom-API-Key>";` 
-3. You can add more map controller by using the `map.addControl()` function
+2. After acquiring your API key, go to index.js and place your API key inside this variable 
+```js 
+const myKey = "<your-tomtom-API-Key>";
+``` 
+3. You can add more map controller by using the this function
+```js
+ map.addControl() 
+```
 ex.
 
 Creating an instance of a controller and setting its options. Then, assigning it to a variable like this:
