@@ -5,7 +5,8 @@ This is made using [Tomtom's Maps SDK for Web (v6)](https://developer.tomtom.com
 
 I decided to use Tomtom's sdk since it doesn't require a credit card.
 
-### Purpose: Search things( places || restaurants || businesses ) near your location.
+Purpose
+: Search things( places || restaurants || businesses ) near your location.
 
 ### Current progress: 
 - [x] Research 
@@ -26,8 +27,8 @@ I decided to use Tomtom's sdk since it doesn't require a credit card.
 
 ### Quick start 
 
-1. Sign-up to [tomtom](https://developer.tomtom.com/) to get your free API.
-2. After acquiring your API key, go to index.js and place your API key inside this variable 
+1. Sign-up to [tomtom](https://developer.tomtom.com/) to get your free API key.
+2. After acquiring your API key, go to **index.js** and place your **API key** inside this variable 
 ```js 
 const myKey = "<your-tomtom-API-Key>";
 ``` 
