@@ -47,13 +47,18 @@ const myKey = "<your-tomtom-API-Key>";
    map.addControl(scale);
 
 
-// You can set the position of the controller like this:
+
+// You can set the position of the controller relative to the map, like this:
 
 map.addControl(scale, 'bottom-left')` 
 
-// or by appending the controller to an element like this: 
+// you can also use this on plugins, Though I only tested it on this particular plugin.
+
 var ttSearchBox = new tt.plugins.SearchBox(tt.services, options);
 var searchBoxHTML = ttSearchBox.getSearchBoxHTML();
+map.addControl(ttSearchBox, 'top-left');
+
+//this might only work on plugins, I havent tested this on controllers. 
 document.body.appendChild(searchBoxHTML);
 
 ```
