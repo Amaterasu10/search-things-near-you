@@ -18,7 +18,7 @@ I decided to use Tomtom's sdk since it doesn't require a credit card.
  - [x] determine the best resources to implement
  - [x] learning how to implement
 
--[x] implementation
+- [x] implementation
 
 ### Quick start 
 
@@ -27,13 +27,16 @@ I decided to use Tomtom's sdk since it doesn't require a credit card.
 3. You can add more map controller by using the `map.addControl()` function
 ex.
 
-> Creating an instance of a controller and setting its options. Then, assigning it to a variable
-> Like this: `var scale = new tt.ScaleControl({
-    maxWidth: 80,
-    unit: 'metric'
-});
-  map.addControl(scale);`
+Creating an instance of a controller and setting its options. Then, assigning it to a variable like this:
+
+```js
+ var scale = new tt.ScaleControl({
+     maxWidth: 80,
+     unit: 'metric'
+ });
+   map.addControl(scale);
+```
 
 You can set the position of the controller like this:
 
-> `map.addControl(scale, 'bottom-left')` or by appending the controller to an element like this: `element.append(scale)`
+`map.addControl(scale, 'bottom-left')` or by appending the controller to an element like this: `element.append(scale)`
