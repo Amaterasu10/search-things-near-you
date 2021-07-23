@@ -10,9 +10,10 @@ I decided to use Tomtom's sdk since it doesn't require a credit card.
 ### Current progress: 
 - [x] Research 
  - [x] Look for resources
+ 
   Resources found:
-   - ~~ google API : Maps javascript API / Places API / Maps Embed API ~~
-   - ~~ manticoresearch ~~
+   - ~~google API : Maps javascript API / Places API / Maps Embed API~~
+   - ~~manticoresearch~~
    - tomtom
 
  - [x] determine the best resources to implement
@@ -35,8 +36,13 @@ Creating an instance of a controller and setting its options. Then, assigning it
      unit: 'metric'
  });
    map.addControl(scale);
+
+
+// You can set the position of the controller like this:
+
+map.addControl(scale, 'bottom-left')` 
+
+// or by appending the controller to an element like this: 
+document.body.appendChild(searchBoxHTML);
+
 ```
-
-You can set the position of the controller like this:
-
-`map.addControl(scale, 'bottom-left')` or by appending the controller to an element like this: `element.append(scale)`
