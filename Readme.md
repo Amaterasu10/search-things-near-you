@@ -24,30 +24,16 @@ I decided to use Tomtom's sdk since it doesn't require a credit card.
 
 1. Sign-up to [tomtom](https://developer.tomtom.com/) to get your free API.
 2. After acquiring your API key, go to index.js and place your API key inside this variable `const myKey = "<your-tomtom-API-Key>";` 
-3. You can add more map controller by using the `map.adController()` function
+3. You can add more map controller by using the `map.addControl()` function
 ex.
 
-`
-    var scale = new tt.ScaleControl({
-        maxWidth: 80,
-        unit: 'metric'
-    });
-    map.addControl(scale);
-`
+> Creating an instance of a controller and setting its options. Then, assigning it to a variable
+> Like this: `var scale = new tt.ScaleControl({
+    maxWidth: 80,
+    unit: 'metric'
+});
+  map.addControl(scale);`
 
-or
+You can set the position of the controller like this:
 
-`
-    map.addControl(new tt.FullscreenControl({
-        container: document.querySelector('body')
-    }));
-
-`
-
-or 
-
-`
-    var nav = new tt.NavigationControl({});
-    map.addControl(nav, 'bottom-right');
-
-`
+> `map.addControl(scale, 'bottom-left')` or by appending the controller to an element like this: `element.append(scale)`
