@@ -36,11 +36,10 @@ const myKey = "<your-tomtom-API-Key>";
 ```js
  map.addControl() 
 ```
-ex.
-
-Creating an instance of a controller and setting its options. Then, assigning it to a variable like this:
+**ex**.
 
 ```js
+//Creating a new instance of a controller and setting its options. Then, assigning it to a variable like this:
  var scale = new tt.ScaleControl({
      maxWidth: 80,
      unit: 'metric'
