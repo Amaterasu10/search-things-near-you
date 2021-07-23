@@ -53,6 +53,8 @@ Creating an instance of a controller and setting its options. Then, assigning it
 map.addControl(scale, 'bottom-left')` 
 
 // or by appending the controller to an element like this: 
+var ttSearchBox = new tt.plugins.SearchBox(tt.services, options);
+var searchBoxHTML = ttSearchBox.getSearchBoxHTML();
 document.body.appendChild(searchBoxHTML);
 
 ```
